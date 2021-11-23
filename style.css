@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 14pt;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section {
+  width: 100%; /* 100% == 100vw viewport width */
+  max-width: 100%; /* hach for 100vw */
+  min-height: 100vh; /* VH = viewport height */
+  /* overflow: hidden; */
+  padding-top: 70px;
+  text-align: center;
+}
+
+.section-about {
+  padding-top: 100px;
+  background: linear-gradient(#ffdd94, #a774c5);
+}
+
+.section-portfolio {
+  background-color: #a774c5;
+}
+
+.section-contacts {
+  background-color: rgb(255, 255, 255);
+  background: linear-gradient(#a774c5, #ffdd94);
+}
+
+.menu {
+  width: 75%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.menu a {
+  color: #a774c5;
+  font-size: 16px;
+  line-height: 60px;
+  padding: 0 8px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+}
+
+.menu a:hover {
+  background-color: #ffca57;
+}
+
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .wrapper,
+.section .wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+
+  position: fixed;
+  width: 100%;
+
+  top: 0px;
+  left: 0px;
+}
+
+.logo {
+  display: flex;
+  color: #ffca57;
+  text-decoration: none;
+  width: 25%;
+  text-align: center;
+  background-image: url(waave.png);
+  background-size: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.menu li {
+  width: 100%;
+}
+
+.gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.gallery2--item {
+  width: 8%;
+}
+
+.gallery2--item img {
+  width: 100%;
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 0px;
+}
+
+.gallery--item {
+  width: 32%;
+}
+
+.gallery--item img {
+  width: 100%;
+  display: block;
+}
+
+.start {
+  font-size: 12pt;
+}
+
+.foto {
+  padding-top: 10px;
+}
+
+.foto img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.start {
+  margin-bottom: 60px;
+}
+
+.beginning {
+  padding-top: 20px;
+}
+
+.beginning--special {
+  padding-top: 415px;
+}
+
+.find {
+  padding-top: 80px;
+}

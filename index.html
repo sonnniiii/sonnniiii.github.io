@@ -1,52 +1,116 @@
 <!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ну привіт </title>
-    <meta name="description" content="опис сторінки"/>
-    <meta name="og:image" content="https://sonnniiii.github.io/ya.jpg"/>
-</head>
-<body>
-    <H1> Всім привіт! </H1>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
 
-    <h2> Мене звати Софія і я графічний дизайнер.  </h2>
-    <h3> Давайте знайомитись)</h3>
-   <a href="https://www.instagram.com/s.rybchych/?hl=uk"  target="_blank"> <img src="usual.jpg" width="30%"> </a>
-  <ul> 
-    <p> Мені 19, я студентка 3 курсу Графічного дизайну в ЛНАМ. Ось трохи фактів про мене:  </p>
- 
-      <li> маю малого крутого вредного пса </li>
-      <li> люблю гори, солодке і спати </li>
-     <li> не їм фрукти </li> 
-     <li> моя суперсила - дивитись декілька довжелезних серіалів одночасно </li>
-     <li> <a href="https://www.instagram.com/s.rybchych/?hl=uk" > це мій інстаграм, який я не веду вже 2 роки </a>
-     
-     <p> Мені сказали зробити маркований список, тому ось він:</p>
-      <p> Що я люблю:</p>
-  <ol>
-      <li> Смачно їсти </li>
-      <li> Висипатись </li>
-      <li> Подорожувати </li>
-      <li> Проводити час з друзями </li>
-      <li> Залипати в телефоні  </li>
-      <li> Робити щось круте  </li>
-      <li> Майструвати щось руками, хендмейд  </li>
-  </ol>
-  <p> Що я не люблю:</p>
-  <ol>
-      <li> Рано вставати </li>
-      <li> Сесію </li>
-      <li> Рано вставати щоб готуватись до сесії </li>
-      <li> Adobe </li>
-      <li> Холодну погоду </li>
-      <li> Активність </li>
-</ol>
-<p> А ось і мій пес</p>
-<img src="pes.png" width="20%"> </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<p> Дякую за увагу</p>
+  </head>
+  
+  <body>
+    <div class="header">
+      <div class="wrapper">
+        <a href="#top" class="logo"> S.Rybchych </a>
 
-</body>
+        <ul class="menu">
+          <li><a href="#about"> Про мене </a></li>
+          <li><a href="#portfolio"> Портфоліо </a></li>
+          <li><a href="#contacts"> Контакти </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="about" class="section section-about">
+      <div class="wrapper">
+        <h1>Привіт! 
+        Познайомимось?</h1>
+
+        <div class="foto">
+          <img src="me.png" width="100%" />
+        </div>
+        <p>Мене звати Софія і я дизайнер.</p>
+        <p>
+          Хочу стати справді крутим дизайнером, але не поки знаю дизайнером
+          чого. Не люблю рано вставати, але заради чогось справді крутого можна себе пересилити. Круто це подорожі, смачна їжа і друзі. Ну і мій пес
+          Бруно. 
+        <p>  Наразі можу запропонувати розробку брендингу, створення ілюстрацій,
+          верстку книг і дизайн сайтів.
+        </p>
+        </p>
+      </div>
+    </div>
+
+    <div id="portfolio" class="section section-portfolio">
+      <div class="wrapper">
+        <h1>Портфоліо</h1>
+
+        <div class="gallery">
+          <div class="gallery--item">
+            <img src="aart.png" />
+          </div>
+
+          <div class="gallery--item"><img src="greeen.jpg" /></div>
+
+          <div class="gallery--item">
+            <img src="flfash.png" />
+          </div>
+
+          <div class="gallery--item">
+            <img src="black.JPG" />
+          </div>
+
+          <div class="gallery--item">
+            <img src="neon.png" />
+          </div>
+
+          <div class="gallery--item">
+            <img src="siluette.jpg" />
+          </div>
+        </div>
+        <p class="beginning"> <a href="#top"> На початок </a></p>
+      </div>
+    </div>
+
+    <div id="contacts" class="section section-contacts">
+      <div class="wrapper">
+        <h1>Контакти</h1>
+
+        <p class="find">
+          Шукайте мене в соціальних мережах
+        </p>
+        <div class="gallery2">
+          
+          <div class="gallery2--item">
+            <a href="https://www.instagram.com/s.rybchych/?hl=uk" > <img src="innst.png" /> </a>
+          </div>
+
+          <div class="gallery2--item">
+            <a href="https://dribbble.com/sonnni"> <img src="drib.png" /> </a>
+          </div>
+
+          <div class="gallery2--item">
+            <a href="https://www.behance.net/eda67496/projects"> <img src="beh.png" /> </a>
+          </div>
+
+          <div class="gallery2--item">
+            <a href="https://www.pinterest.ru/skifffi/_saved/" > <img src="pint.png" /> </a>
+          </div>
+
+        </div>
+        <p class="beginning--special"> <a href="#top" > На початок </a> </p>
+
+      </div>
+    </div>
+  </body>
 </html>

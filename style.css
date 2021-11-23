@@ -27,6 +27,7 @@ body {
   /* overflow: hidden; */
   padding-top: 70px;
   text-align: center;
+  background: no-repeat center center / cover;
 }
 
 .section-about {

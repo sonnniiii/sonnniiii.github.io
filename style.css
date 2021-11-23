@@ -27,21 +27,23 @@ body {
   /* overflow: hidden; */
   padding-top: 70px;
   text-align: center;
-  background: no-repeat center center / cover;
 }
 
 .section-about {
   padding-top: 100px;
   background: linear-gradient(#ffdd94, #a774c5);
+  background: no-repeat center center / cover;
 }
 
 .section-portfolio {
   background-color: #a774c5;
+  background: no-repeat center center / cover;
 }
 
 .section-contacts {
   background-color: rgb(255, 255, 255);
   background: linear-gradient(#a774c5, #ffdd94);
+  background: no-repeat center center / cover;
 }
 
 .menu {

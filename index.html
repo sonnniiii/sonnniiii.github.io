@@ -1,53 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>s.rybchych</title>
+    <link rel="icon" type="image/x-icon" href="iconsmile.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta name="description" content="Привіт!" />
+    <meta name="og:image" content="https://kalynsonya.github.io/og_image.JPG" />
+    <link rel="icon" type="image/x-icon" href="iconsmile.png" />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
     <div class="header">
       <div class="wrapper">
-        <a href="#top" class="logo"> S.Rybchych </a>
+        <a href="#start" class="logo"> s.rybchych </a>
 
         <ul class="menu">
-          <li><a href="#about"> Про мене </a></li>
-          <li><a href="#portfolio"> Портфоліо </a></li>
-          <li><a href="#contacts"> Контакти </a></li>
+          <li><a href="#about"> про мене </a></li>
+          <li><a href="#portfolio"> портфоліо </a></li>
+          <li><a href="#contacts"> контакти </a></li>
         </ul>
       </div>
     </div>
 
+    <div id="start" class="section section-start">
+      <img src="ppinkmee.png" class="biglogo" width="40%" />
+    </div>
+
     <div id="about" class="section section-about">
       <div class="wrapper">
-        <h1>Привіт! 
-        Познайомимось?</h1>
+        <div class="info">
+          <div class="about__col__left">
+            <div class="about__col__left_image" class="foto">
+              <img src="me.png" width="80%" />
+            </div>
+          </div>
 
-        <div class="foto">
-          <img src="me.png" width="100%" />
+          <div class="about__col__right">
+            <div class="about__col__right_wrapper">
+              <h1>Привіт! Познайомимось?</h1>
+              <p>Мене звати Софія і я дизайнер.</p>
+              <p>
+                Хочу стати справді крутим дизайнером, але не поки знаю чого
+                саме. Не люблю рано вставати, хоча заради чогось справді крутого
+                можна себе пересилити. Круто це подорожі, смачна їжа і друзі. Ну
+                і мій пес Бруно.
+              </p>
+
+              <p>
+                Наразі можу запропонувати розробку брендингу, створення
+                ілюстрацій, верстку книг і дизайн сайтів.
+              </p>
+            </div>
+          </div>
         </div>
-        <p>Мене звати Софія і я дизайнер.</p>
-        <p>
-          Хочу стати справді крутим дизайнером, але не поки знаю дизайнером
-          чого. Не люблю рано вставати, але заради чогось справді крутого можна себе пересилити. Круто це подорожі, смачна їжа і друзі. Ну і мій пес
-          Бруно. 
-        <p>  Наразі можу запропонувати розробку брендингу, створення ілюстрацій,
-          верстку книг і дизайн сайтів.
-        </p>
-        </p>
       </div>
     </div>
 
@@ -55,62 +80,102 @@
       <div class="wrapper">
         <h1>Портфоліо</h1>
 
-        <div class="gallery">
+        <div class="gallery" id="lightgallery">
           <div class="gallery--item">
-            <img src="aart.png" />
-          </div>
-
-          <div class="gallery--item"><img src="greeen.jpg" /></div>
-
-          <div class="gallery--item">
-            <img src="flfash.png" />
-          </div>
-
-          <div class="gallery--item">
-            <img src="black.JPG" />
+            <a
+              href="aart.png"
+              target="_blank"
+              data-sub-html="<h4>Kyiv Art Week</h4><p>Редизайн стилістики фестивалю</p>"
+            >
+              <img src="aart.png" />
+            </a>
           </div>
 
           <div class="gallery--item">
-            <img src="neon.png" />
+            <a
+              href="greeen.jpg"
+              target="_blank"
+              data-sub-html="<h4>Пейзаж</h4><p>Монотипія</p>"
+            >
+              <img src="greeen.jpg" />
+            </a>
           </div>
 
           <div class="gallery--item">
-            <img src="siluette.jpg" />
+            <a
+              href="flfash.png"
+              target="_blank"
+              data-sub-html="<h4>Flash</h4><p>Ілюстрація</p>"
+            >
+              <img src="flfash.png" />
+            </a>
+          </div>
+
+          <div class="gallery--item">
+            <a
+              href="black.JPG"
+              target="_blank"
+              data-sub-html="<h4>Black and Black</h4><p>Фотографія</p>"
+            >
+              <img src="black.JPG" />
+            </a>
+          </div>
+
+          <div class="gallery--item">
+            <a
+              href="neon.png"
+              target="_blank"
+              data-sub-html="<h4>Kyiv Art Week</h4><p>Редизайн стилістики фестивалю</p>"
+            >
+              <img src="neon.png" />
+            </a>
+          </div>
+
+          <div class="gallery--item">
+            <a
+              href="siluette.jpg"
+              target="_blank"
+              data-sub-html="<h4>In motion</h4><p>Фотографія</p>"
+            >
+              <img src="siluette.jpg" />
+            </a>
           </div>
         </div>
-        <p class="beginning"> <a href="#top"> На початок </a></p>
+        <p class="find">Підписуйтесь)</p>
       </div>
     </div>
 
     <div id="contacts" class="section section-contacts">
       <div class="wrapper">
-        <h1>Контакти</h1>
+        <div class="proba">
+          <a href="https://www.instagram.com/s.rybchych/?hl=uk" target="_blank">
+            <img src="inst.png" />
+          </a>
 
-        <p class="find">
-          Шукайте мене в соціальних мережах
-        </p>
-        <div class="gallery2">
-          
-          <div class="gallery2--item">
-            <a href="https://www.instagram.com/s.rybchych/?hl=uk" > <img src="innst.png" /> </a>
-          </div>
+          <a href="https://www.behance.net/eda67496/projects" target="_blank">
+            <img src="behance.png" />
+          </a>
 
-          <div class="gallery2--item">
-            <a href="https://dribbble.com/sonnni"> <img src="drib.png" /> </a>
-          </div>
-
-          <div class="gallery2--item">
-            <a href="https://www.behance.net/eda67496/projects"> <img src="beh.png" /> </a>
-          </div>
-
-          <div class="gallery2--item">
-            <a href="https://www.pinterest.ru/skifffi/_saved/" > <img src="pint.png" /> </a>
-          </div>
-
+          <a
+            href="https://mail.google.com/mail/u/0/?ogbl#inbox"
+            target="_blank"
+          >
+            <img src="mail.png" />
+          </a>
         </div>
-        <p class="beginning--special"> <a href="#top" > На початок </a> </p>
-
       </div>
     </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".gallery--item a",
+      });
+    </script>
   </body>
 </html>
